@@ -1,13 +1,41 @@
 * {
     box-sizing: border-box;
-    font-family: 'Roboto';
+    font-family: 'Arial';
 }
 body {
     margin: 0;
     padding: 0;
 }
-nav {
+.topo {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    height: 77px;
-    background-color: #F00;
+    height: 100px;
+    background-color: #FFF;
+}
+.logo {
+    width: 150px;
+}
+.logo-responsive {
+    margin-top: 7px;
+    margin-left: 60px;
+    width: 150px;
+}
+.navbar {
+    display: flex;
+    list-style: none;
+}
+.navmenu {
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #0075af;
+    margin-right: 40px;
+}
+.banner-img {
+    background-attachment: fixed;
+    width: 100%;
+    height: 900px;
 }
