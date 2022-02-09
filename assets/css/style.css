@@ -49,6 +49,7 @@ ul.navbar li.icon {display: none;}
     background-attachment: fixed;
     height: 700px;
     background-image: url(https://www.hanaelectronics.com.br/assets/images/hana-electronics-front-3-2000x1125.jpg);
+    background-position: center;
 }
 .info {
     justify-content: center;
@@ -108,7 +109,7 @@ ul.navbar li.icon {display: none;}
     margin: 0px;
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: auto;
     height: 100%;
     padding-left: 100px;
 }
@@ -196,5 +197,84 @@ footer {
     }
     ul.navbar.responsive .navmenu a {
         font-size: 60px;
+    }
+    .banner {
+        height: 3000px;
+    }
+    .info {
+        height: 2500px;
+    }
+    .info .info-section {
+        height: 2000px;
+        width: 2000px;
+    }
+    .info-section p {
+        font-size: 96px;
+    }
+    .info-section .desc {
+        font-size: 68px;
+    }
+    .info-section button {
+        height: 200px;
+        width: 700px;
+        font-size: 68px;
+    }
+    .contact {
+        height: 1800px;
+    }
+    .contact-title {
+        font-size: 280px;
+        margin-bottom: 100px;
+    }
+    .contact-itens {
+        width: 300px;
+        font-size: 96px;
+        margin-bottom: 100px;
+    }
+    .fogarel {
+        width: 1000px;
+        font-size: 68px;
+        margin-bottom: 100px;
+    }
+    .local {
+        width: 1500px;
+        height: 1100px;
+    }
+    footer {
+        height: 340px;
+        font-size: 68px;
+        text-align: center;
+        width:auto;
+    }
+}
+@media only screen and (max-device-width: 425px) {
+    .info {
+        height: 7000px;
+        display: flex;
+        flex-direction: column;
+    }
+    .info-section {
+        width: 1250px !important;
+        margin-top: 100px;
+    }
+    .contact {
+        flex-direction: column;
+        height: 2500px;
+    }
+    .contact-itens {
+        width: 100%;
+    }
+    .letras {
+        text-align: center;
+        padding: 0px;
+    }
+    .local {
+        margin-bottom: 300px !important;
+        margin: auto;
+        width: 1200px;
+        height: 1000px;
+    }
+    footer {
+        height: 400px;
     }
 }
